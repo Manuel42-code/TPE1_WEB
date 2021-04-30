@@ -1,0 +1,124 @@
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    border: black solid 3px ;
+    align-items: center;
+    background-color: rgb(29, 202, 29);
+    margin-bottom: 15px;
+
+}
+
+.botonera {
+    text-transform: uppercase;
+    font-style: bold;
+    display: flex;
+    list-style: none;
+}
+.botonera li {
+    padding: 10px;
+    
+    
+}
+.info {
+    border: black solid 2px;
+    display: flex;
+    background-color: grey;
+
+}
+.empresa {
+    width: 50%;
+    margin: 5px;
+    padding: 5px;
+    border: white 1px solid;
+
+}
+h2 {
+    text-align: center;
+    font-size: 35px;
+}
+p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.postventa {
+    width: 50%;
+    margin: 5px;
+    padding: 5px;
+    border: white 1px solid;
+}
+.pie {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+
+}
+.pie img {
+    height: 220px;
+    width: 220px;
+}
+
+.botom {
+    margin-top: 10px;
+}
+
+option {
+    height: 50px;
+    width: 50px;
+}
+.contact_form{  
+    width: 460px; 
+    height: auto;
+    margin: 30px auto;
+    border-radius: 10px;  
+    padding-top: 30px;
+    padding-bottom: 20px;  
+    background-color: #fbfbfb; 
+    padding-left: 30px; 
+  }
+
+  button{
+    height: 50px; 
+    padding-left: 5px;
+    padding-right: 5px;   
+    margin-bottom: 10px;    
+    background-color:rgb(29, 202, 29); 
+    border-color: rgb(29, 202, 29); 
+    border-style: solid; 
+    width: 420px;   
+    cursor: pointer;
+  }
+    
+  button p{
+    text-align:center;
+    color: #fff; 
+  }
+
+  input{
+    background-color: #fbfbfb; 
+    width: 408px; 
+    height: 40px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 2px; 
+    border-color: rgb(29, 202, 29); 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+  }
+  
+  textarea{
+    background-color: #fbfbfb; 
+    width: 405px; 
+    height: 150px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 2px; 
+    border-color: rgb(29, 202, 29); 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px; 
+  }
