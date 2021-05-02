@@ -52,7 +52,8 @@ p {
     align-items: center;
     background-color: black;
     color: white;
-    padding: 10px;
+    padding: 5px;
+    height: 150px;
 
 }
 .pie img {
@@ -122,3 +123,52 @@ option {
     margin-bottom: 20px; 
     padding-top: 15px; 
   }
+  .desplegable{
+      text-align: center;
+      list-style: none;
+
+  }
+  
+  .foto{
+    border: solid 1px rgb(29, 202, 29);
+    height: 350px;
+    width: 350px;
+  }
+  
+  .imagenprincipalmaquina {
+    margin: auto;
+    justify-content: center;
+    display: block;
+    margin: 0 30%;
+    height: 500px;
+    width: 600px;
+
+  }
+   .imagenmaquina {
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin: auto;
+    border: 1px solid rgb(29, 202, 29);
+        }
+  .imagenes {
+    display: flex;
+    list-style: none;
+    justify-content:space-evenly;
+}
+    .titulomaquinas {
+        text-align: center;
+}
+.tablavalores {
+    margin: auto;
+    justify-content: center;
+}
+.table, td, tr {
+    border: solid black 1px;
+    width: 10%;
+    text-align: center;
+
+}
+.trtitulos {
+    background-color:rgb(29, 202, 29) ;
+}
