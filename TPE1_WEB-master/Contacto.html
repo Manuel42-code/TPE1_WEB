@@ -7,9 +7,9 @@
     <title>Servicampo Tandil SA</title>
     <link rel="stylesheet" href="estilos.css">
 </head>
-<body>
+<body onload= "javascript:Captcha()">
     <div class="top">
-        <img src="C:\Users\Usuario\Desktop\TUDAI\WEB1\TPE1\TPE1_WEB-master\Imagenes\Servicampo3.jpg" alt="Logo Empresa">
+        <img src="C:\Users\Usuario\Desktop\CHELO\web\TPE1_WEB-master\TPE1_WEB-master\Imagenes\Servicampo3.jpg" alt="Logo Empresa">
         <ul class="botonera">
             <li><a style="text-decoration: none; background-color: rgb(103, 103, 224); padding: 7px; color: black;" href="C:\Users\Usuario\Desktop\TUDAI\WEB1\TPE1\TPE1_WEB-master\Inicio.html" target="_self">Inicio</a></li>
             <li><a style="text-decoration: none; background-color: rgb(103, 103, 224); padding: 7px; color: black;" href="C:\Users\Usuario\Desktop\TUDAI\WEB1\TPE1\TPE1_WEB-master\Catalogo.html" target="_blank">Catalogo</a></li>
@@ -59,12 +59,20 @@
                                         <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
                                     </p>                    
                   
-                    <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
-    
+                    <button type="submit" name="enviar_formulario" id="enviar" onClick="ValidarCaptcha()">Enviar</button>
+                             
+                    <div>
+											<p> </p>
+                      <label for="Captcha" class="Ingresar_captcha" style="font: caption; color: red; font-size:20px;">Ingrese el codigo de validacion antes de Enviar
+                      </label>
+											<p> </p>
+                      <span id="captcha" style="font-size:28px; padding-left: 50px; padding-right: 50px; font-style: oblique; background-color: rgb(250, 195, 148); color: rgb(73, 15, 231);">  </span>
+											<input type="text" id="txtInput" value=""/> 
+                    </div>
+
                     <p class="aviso">
                       <span class="obligatorio"> * </span>los campos son obligatorios.
-                    </p>          
-                
+                    </p> 
               </form>
         </div>  
     </div>
@@ -82,5 +90,8 @@
                         </p>
                     </footer>
                 </div>
+                <script type='text/javascript' src='Captcha.js'>
+                  
+                </script>
 </body>
 </html>
