@@ -17,10 +17,10 @@ function Captcha() {
 
 function ValidarCaptcha() {
     if (  document.getElementById('captcha').innerHTML === document.getElementById('txtInput').value) {
-        alert("Formulario enviado");
+       document.getElementById('resultado').innerHTML= "Captcha correcto.";
     }
     else {
-        alert("Captcha Incorrecto");
+        document.getElementById('resultado').innerHTML= "Captcha Incorrecto. Vuelva a ingresarlo.";
         Captcha();
        
     }
